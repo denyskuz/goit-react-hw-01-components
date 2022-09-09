@@ -1,0 +1,40 @@
+.items {
+	width: 400px;
+	margin: 20px auto;
+  list-style: none;
+  margin: 20px auto;
+  padding: 0;
+}
+
+.item {
+	display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  box-shadow: 0 0 4px #ccc;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+ 
+.online,
+.offline {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border-radius: 100px;
+    background-color: #38ba38b5;
+    margin: 0 16px 0 16px;
+}
+
+.offline {
+    background-color: #fc2626f7;
+}
+
+.img {
+    margin: 16px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+}

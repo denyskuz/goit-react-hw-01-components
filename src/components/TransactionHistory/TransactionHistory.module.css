@@ -1,0 +1,27 @@
+.table {
+    color: black;
+    width: 950px;
+    text-align: center;
+    margin: auto auto;
+    border-spacing: 2px;
+    border-style: hidden;
+  }
+  
+  th {
+    background-color: #00bcd4;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 15px;
+    width: 200px;
+  }
+
+  td {
+    font-weight: 300;
+    font-size: 13px;
+    padding: 15px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ecf1f4;
+  }
