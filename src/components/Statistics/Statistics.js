@@ -4,7 +4,7 @@ import classes from './Statistical.module.css';
 
 const Statistics = ({ title, stats }) => (
   <section className={classes.statistics}>
-    <h2 className={classes.title}>{title}</h2>
+    {title && <h2 className={classes.title}>{title}</h2>}
     <ul className={classes.items}>
       {stats.map(stat => (
         <li className={classes.item} key={stat.id}>
